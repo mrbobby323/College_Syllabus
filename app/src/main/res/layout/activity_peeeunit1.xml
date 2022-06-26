@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PEEEUnit1">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape"
+        android:layout_marginTop="120dp"
+
+
+        ></ImageView>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bvritlogo"
+        android:padding="20dp"
+        android:elevation="100dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="INTRODUCTION TO ELECTRICAL CIRCUITS"
+
+        android:textColor="@color/teal_200"
+        android:textSize="15dp"></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="370dp"
+                android:fontFamily="@font/roboto_black"
+                android:gravity="center"
+                android:text="Circuit Concept – R,L,C parameters - Voltage and Current sources - Source transformation - Voltage - Current relationship for passive elements. Kirchhoff‘s laws - network reduction techniques - Series, Parallel, Series-parallel, Star-to-Delta or Delta-to-Star transformation. Nodal analysis, mesh analysis, super node and super mesh analysis for DC Excitation, Numerical problems with independent sources only"
+                android:textSize="17dp"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

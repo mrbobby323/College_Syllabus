@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ECE11">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape"
+        android:layout_marginTop="120dp"
+
+
+        ></ImageView>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bvritlogo"
+        android:padding="20dp"
+        android:elevation="100dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="1st year"
+        android:textSize="10pt"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/teal_200"
+        ></TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Analog &amp; Digital Communication"
+                android:id="@+id/EB"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:background="@drawable/buttonshape"></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VLSI Design"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/LDIC"
+
+                android:background="@drawable/buttonshape"></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fundamentals of Design Thinking"
+                android:id="@+id/MMCV"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:background="@drawable/buttonshape"></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Business Economics and Financial Analysis"
+                android:id="@+id/TLEF"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:background="@drawable/buttonshape"></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English Language and Communication Skills Lab"
+                android:id="@+id/MCA"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:background="@drawable/buttonshape"></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/buttonshape"
+                android:text="Analog and Digital Communication Lab"
+                ></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/buttonshape"
+                android:text="VLSI Lab"
+                ></Button>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

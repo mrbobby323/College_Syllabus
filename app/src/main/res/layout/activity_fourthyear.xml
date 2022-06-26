@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fourthyear">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape"
+        android:layout_marginTop="120dp"
+
+
+        ></ImageView>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bvritlogo"
+        android:padding="20dp"
+        android:elevation="100dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="4th year"
+        android:textColor="@color/teal_200"
+        android:textSize="10pt"></TextView>
+
+    <Button
+        android:id="@+id/firstsem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttonshape"
+
+        android:elevation="200dp"
+
+        android:fontFamily="@font/fredoka_one"
+        android:text="1st semester"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/firstsem"
+        android:elevation="200dp"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/secondsem"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:text="2nd semester"
+        android:fontFamily="@font/fredoka_one"
+        ></Button>
+
+</RelativeLayout>

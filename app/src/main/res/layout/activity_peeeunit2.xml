@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PEEEunit2">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape"
+        android:layout_marginTop="120dp"
+
+
+        ></ImageView>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bvritlogo"
+        android:padding="20dp"
+        android:elevation="100dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="UNIT- II: SINGLE PHASE A.C CIRCUITS"
+
+        android:textColor="@color/teal_200"
+        android:textSize="20dp"></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="370dp"
+                android:fontFamily="@font/roboto_black"
+                android:gravity="center"
+                android:text="R.M.S, Average values and form factor for different periodic wave forms, Steady state analysis of R, L and C (in series, parallel and series parallel combinations) with sinusoidal excitation - Concept of Reactance, Impedance, Susceptance and Admittance - Phase and Phase difference - concept of power factor, Real and Reactive powers - j-notation, Complex and Polar forms of representation, Complex power."
+                android:textSize="17dp"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

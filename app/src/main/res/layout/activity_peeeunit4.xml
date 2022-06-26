@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PEEEunit4">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape"
+        android:layout_marginTop="120dp"
+
+
+        ></ImageView>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bvritlogo"
+        android:padding="20dp"
+        android:elevation="100dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="RECTIFIERS &amp; SPECIAL PURPOSE DEVICES:"
+
+        android:textColor="@color/teal_200"
+        android:textSize="17dp"></TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="370dp"
+                android:fontFamily="@font/roboto_black"
+                android:text="Review of PN Junction diode, V-I Characteristics. Rectifiers: Diode as a Rectifier - Half Wave Rectifier, Full Wave rectifier with centre tapped transformer, Bridge Rectifier, Rectifier with filter (capacitor &amp; Inductor). Special Purpose Devices: Zener diode as regulator, SCR. Tunnel diode, Varactor diode."
+                android:textSize="20dp"
+                ></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

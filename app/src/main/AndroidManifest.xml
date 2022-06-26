@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bvr20t">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".AP"
+            android:exported="false" />
+        <activity
+            android:name=".lac"
+            android:exported="false" />
+        <activity
+            android:name=".ECE42"
+            android:exported="false" />
+        <activity
+            android:name=".ECE41"
+            android:exported="false" />
+        <activity
+            android:name=".ECE32"
+            android:exported="false" />
+        <activity
+            android:name=".ECE31"
+            android:exported="false" />
+        <activity
+            android:name=".ECE12"
+            android:exported="false" />
+        <activity
+            android:name=".ECE21"
+            android:exported="false" />
+        <activity
+            android:name=".ece22"
+            android:exported="false" />
+        <activity
+            android:name=".MMCVunit5"
+            android:exported="false" />
+        <activity
+            android:name=".MMCVunit4"
+            android:exported="false" />
+        <activity
+            android:name=".MMCVunit3"
+            android:exported="false" />
+        <activity
+            android:name=".MMCVunit2"
+            android:exported="false" />
+        <activity
+            android:name=".MMCVunit1"
+            android:exported="false" />
+        <activity
+            android:name=".LDICunit4"
+            android:exported="false" />
+        <activity
+            android:name=".LDICunit3"
+            android:exported="false" />
+        <activity
+            android:name=".LDICunit2"
+            android:exported="false" />
+        <activity
+            android:name=".LDICunit1"
+            android:exported="false" />
+        <activity
+            android:name=".MCAunit5"
+            android:exported="false" />
+        <activity
+            android:name=".MCAunit4"
+            android:exported="false" />
+        <activity
+            android:name=".MCAunit3"
+            android:exported="false" />
+        <activity
+            android:name=".MCAunit2"
+            android:exported="false" />
+        <activity
+            android:name=".MCAunit1"
+            android:exported="false" />
+        <activity
+            android:name=".EBunit5"
+            android:exported="false" />
+        <activity
+            android:name=".EBunit4"
+            android:exported="false" />
+        <activity
+            android:name=".EBunit3"
+            android:exported="false" />
+        <activity
+            android:name=".EBunit2"
+            android:exported="false" />
+        <activity
+            android:name=".EBunit1"
+            android:exported="false" />
+        <activity
+            android:name=".LDIC"
+            android:exported="false" />
+        <activity
+            android:name=".MCA"
+            android:exported="false" />
+        <activity
+            android:name=".TLEF"
+            android:exported="false" />
+        <activity
+            android:name=".GS"
+            android:exported="false" />
+        <activity
+            android:name=".MMCV"
+            android:exported="false" />
+        <activity
+            android:name=".EB"
+            android:exported="false" />
+        <activity
+            android:name=".PEEEunit5"
+            android:exported="false" />
+        <activity
+            android:name=".PEEEunit4"
+            android:exported="false" />
+        <activity
+            android:name=".PEEEunit3"
+            android:exported="false" />
+        <activity
+            android:name=".PEEEunit2"
+            android:exported="false" />
+        <activity
+            android:name=".PEEEUnit1"
+            android:exported="false" />
+        <activity
+            android:name=".PEEE"
+            android:exported="false" />
+        <activity
+            android:name=".ECE11"
+            android:exported="false" />
+        <activity
+            android:name=".firstsemester"
+            android:exported="false" />
+        <activity
+            android:name=".fourthyear"
+            android:exported="false" />
+        <activity
+            android:name=".thirdyear"
+            android:exported="false" />
+        <activity
+            android:name=".secondyear"
+            android:exported="false" />
+        <activity
+            android:name=".firstyear"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
